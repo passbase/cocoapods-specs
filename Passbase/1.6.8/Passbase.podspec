@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
     spec.name           = 'Passbase'
-    spec.version        = '1.6.7'
+    spec.version        = '1.6.8'
     spec.summary        = 'Passbase helps you to uniquely identify your users.'
     spec.description    = 'Passbase completes a facial recognition and checks for a valid government identification document to uniquely identify people.'
     spec.homepage       = 'https://www.passbase.com'
@@ -24,7 +24,7 @@ Pod::Spec.new do |spec|
         'Passbase' => ['Passbase/**/*.{storyboard,png,gif,xcassets,ttf,xib,json,strings}']
     }
 
-    spec.vendored_frameworks = Passbase/Frameworks/Sentry.framework', 'Passbase/Frameworks/ZoomAuthenticationHybrid.framework', 'Passbase.framework'
+    spec.vendored_frameworks = 'Passbase/Frameworks/Sentry.framework', 'Passbase/Frameworks/ZoomAuthenticationHybrid.framework', 'Passbase.framework'
 
 
 end
