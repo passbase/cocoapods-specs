@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
     spec.author         = { 'Mathias J. Klenk' => 'mathias@passbase.com' }
     spec.platform       = :ios, '10.0'
     spec.swift_version  = '4.2'
-    spec.source       = { :git => 'https://github.com/skorostetskyi/passbase.git', :tag => spec.version.to_s }
+    spec.source       = { :git => 'https://github.com/passbase/passbase-sdk.git', :tag => spec.version.to_s }
     spec.requires_arc = true
     spec.source_files  = 'Passbase/**/*.{swift}'
     spec.resource_bundles = {
